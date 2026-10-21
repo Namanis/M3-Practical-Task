@@ -1,0 +1,402 @@
+2026-10-21 11:45:41 ERROR c.b.s.controller.HomeController - Command 'LIGHT_01 SET_BRIGHTNESS 101' failed for device 'LIGHT_01'
+com.bootcamp.smarthome.exception.InvalidValueException: Invalid value for 'brightness': 101 (constraint: must be between 0 and 100)
+	at com.bootcamp.smarthome.device.SmartLight.setBrightness(SmartLight.java:32)
+	at com.bootcamp.smarthome.device.SmartLight.executeCommand(SmartLight.java:43)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:95)
+	at com.bootcamp.smarthome.Main.main(Main.java:44)
+2026-10-21 11:45:41 WARN  c.b.s.controller.HomeController - Device 'LIGHT_03' is offline — 'TURN_ON' skipped
+2026-10-21 11:45:41 ERROR c.b.smarthome.device.SmartLock - SECURITY ALERT: No pin entered for Back Door Lock.
+2026-10-21 11:45:41 ERROR c.b.s.controller.HomeController - Command 'LOCK_02 UNLOCK' failed for device 'LOCK_02'
+com.bootcamp.smarthome.exception.InvalidCommandException: SECURITY ALERT: No PIN entered for Back Door Lock.
+	at com.bootcamp.smarthome.device.SmartLock.validatePin(SmartLock.java:35)
+	at com.bootcamp.smarthome.device.SmartLock.executeCommand(SmartLock.java:55)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:95)
+	at com.bootcamp.smarthome.Main.main(Main.java:72)
+2026-10-21 11:53:15 ERROR c.b.s.controller.HomeController - Command 'LIGHT_01 SET_BRIGHTNESS 101' failed for device 'LIGHT_01'
+com.bootcamp.smarthome.exception.InvalidValueException: Invalid value for 'brightness': 101 (constraint: must be between 0 and 100)
+	at com.bootcamp.smarthome.device.SmartLight.setBrightness(SmartLight.java:32)
+	at com.bootcamp.smarthome.device.SmartLight.executeCommand(SmartLight.java:43)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:95)
+	at com.bootcamp.smarthome.Main.main(Main.java:44)
+2026-10-21 11:53:15 WARN  c.b.s.controller.HomeController - Device 'LIGHT_03' is offline — 'TURN_ON' skipped
+2026-10-21 11:53:15 ERROR c.b.smarthome.device.SmartLock - SECURITY ALERT: No pin entered for Back Door Lock.
+2026-10-21 11:53:15 ERROR c.b.s.controller.HomeController - Command 'LOCK_02 UNLOCK' failed for device 'LOCK_02'
+com.bootcamp.smarthome.exception.InvalidCommandException: SECURITY ALERT: No PIN entered for Back Door Lock.
+	at com.bootcamp.smarthome.device.SmartLock.validatePin(SmartLock.java:35)
+	at com.bootcamp.smarthome.device.SmartLock.executeCommand(SmartLock.java:55)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:95)
+	at com.bootcamp.smarthome.Main.main(Main.java:72)
+2026-10-21 11:57:54 ERROR c.b.s.controller.HomeController - Command 'LIGHT_01 SET_BRIGHTNESS 101' failed for device 'LIGHT_01'
+com.bootcamp.smarthome.exception.InvalidValueException: Invalid value for 'brightness': 101 (constraint: must be between 0 and 100)
+	at com.bootcamp.smarthome.device.SmartLight.setBrightness(SmartLight.java:32)
+	at com.bootcamp.smarthome.device.SmartLight.executeCommand(SmartLight.java:43)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:95)
+	at com.bootcamp.smarthome.Main.main(Main.java:44)
+2026-10-21 11:57:54 WARN  c.b.s.controller.HomeController - Device 'LIGHT_03' is offline — 'TURN_ON' skipped
+2026-10-21 11:57:54 ERROR c.b.smarthome.device.SmartLock - SECURITY ALERT: No pin entered for Back Door Lock.
+2026-10-21 11:57:54 ERROR c.b.s.controller.HomeController - Command 'LOCK_02 UNLOCK' failed for device 'LOCK_02'
+com.bootcamp.smarthome.exception.InvalidCommandException: SECURITY ALERT: No PIN entered for Back Door Lock.
+	at com.bootcamp.smarthome.device.SmartLock.validatePin(SmartLock.java:35)
+	at com.bootcamp.smarthome.device.SmartLock.executeCommand(SmartLock.java:55)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:95)
+	at com.bootcamp.smarthome.Main.main(Main.java:72)
+2026-10-21 11:57:54 WARN  c.b.s.controller.HomeController - Device not found: 'SENSOR_99'
+2026-10-21 12:01:59 ERROR c.b.s.controller.HomeController - Command 'LIGHT_01 SET_BRIGHTNESS 101' failed for device 'LIGHT_01'
+com.bootcamp.smarthome.exception.InvalidValueException: Invalid value for 'brightness': 101 (constraint: must be between 0 and 100)
+	at com.bootcamp.smarthome.device.SmartLight.setBrightness(SmartLight.java:32)
+	at com.bootcamp.smarthome.device.SmartLight.executeCommand(SmartLight.java:43)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:93)
+	at com.bootcamp.smarthome.Main.main(Main.java:44)
+2026-10-21 12:01:59 WARN  c.b.s.controller.HomeController - Device 'LIGHT_03' is offline — 'TURN_ON' skipped
+2026-10-21 12:01:59 ERROR c.b.s.controller.HomeController - Command 'LIGHT_03 TURN_ON' failed for device 'LIGHT_03'
+com.bootcamp.smarthome.exception.DeviceOfflineException: Device 'LIGHT_03' is offline
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:90)
+	at com.bootcamp.smarthome.Main.main(Main.java:61)
+2026-10-21 12:03:27 ERROR c.b.s.controller.HomeController - Command 'LIGHT_01 SET_BRIGHTNESS 101' failed for device 'LIGHT_01'
+com.bootcamp.smarthome.exception.InvalidValueException: Invalid value for 'brightness': 101 (constraint: must be between 0 and 100)
+	at com.bootcamp.smarthome.device.SmartLight.setBrightness(SmartLight.java:32)
+	at com.bootcamp.smarthome.device.SmartLight.executeCommand(SmartLight.java:43)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:93)
+	at com.bootcamp.smarthome.Main.main(Main.java:44)
+2026-10-21 12:03:27 WARN  c.b.s.controller.HomeController - Device 'LIGHT_03' is offline — 'TURN_ON' skipped
+2026-10-21 12:03:27 ERROR c.b.s.controller.HomeController - Command 'LIGHT_03 TURN_ON' failed for device 'LIGHT_03'
+com.bootcamp.smarthome.exception.DeviceOfflineException: Device 'LIGHT_03' is offline
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:90)
+	at com.bootcamp.smarthome.Main.main(Main.java:61)
+2026-10-21 12:06:00 ERROR c.b.s.controller.HomeController - Command 'LIGHT_01 SET_BRIGHTNESS 101' failed for device 'LIGHT_01'
+com.bootcamp.smarthome.exception.InvalidValueException: Invalid value for 'brightness': 101 (constraint: must be between 0 and 100)
+	at com.bootcamp.smarthome.device.SmartLight.setBrightness(SmartLight.java:32)
+	at com.bootcamp.smarthome.device.SmartLight.executeCommand(SmartLight.java:43)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:93)
+	at com.bootcamp.smarthome.Main.main(Main.java:44)
+2026-10-21 12:06:00 WARN  c.b.s.controller.HomeController - Device 'LIGHT_03' is offline — 'TURN_ON' skipped
+2026-10-21 12:06:00 ERROR c.b.s.controller.HomeController - Command 'LIGHT_03 TURN_ON' failed for device 'LIGHT_03'
+com.bootcamp.smarthome.exception.DeviceOfflineException: Device 'LIGHT_03' is offline
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:90)
+	at com.bootcamp.smarthome.Main.main(Main.java:63)
+2026-10-21 12:06:00 ERROR c.b.smarthome.device.SmartLock - SECURITY ALERT: No pin entered for Back Door Lock.
+2026-10-21 12:06:00 ERROR c.b.s.controller.HomeController - Command 'LOCK_02 UNLOCK' failed for device 'LOCK_02'
+com.bootcamp.smarthome.exception.InvalidCommandException: SECURITY ALERT: No PIN entered for Back Door Lock.
+	at com.bootcamp.smarthome.device.SmartLock.validatePin(SmartLock.java:35)
+	at com.bootcamp.smarthome.device.SmartLock.executeCommand(SmartLock.java:55)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:93)
+	at com.bootcamp.smarthome.Main.main(Main.java:78)
+2026-10-21 12:07:23 INFO  c.b.s.controller.HomeController - Command 'TURN_ON' executed successfully on device 'LIGHT_01'
+2026-10-21 12:07:23 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_01'
+2026-10-21 12:07:23 INFO  c.b.s.controller.HomeController - Command 'TURN_ON' executed successfully on device 'LIGHT_02'
+2026-10-21 12:07:23 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_02'
+2026-10-21 12:07:23 INFO  c.b.s.controller.HomeController - Command 'SET_TEMP 22.5' executed successfully on device 'THERMO_01'
+2026-10-21 12:07:23 INFO  c.b.s.controller.HomeController - Command processing ended for device 'THERMO_01'
+2026-10-21 12:07:23 ERROR c.b.s.controller.HomeController - Command 'LIGHT_01 SET_BRIGHTNESS 101' failed for device 'LIGHT_01'
+com.bootcamp.smarthome.exception.InvalidValueException: Invalid value for 'brightness': 101 (constraint: must be between 0 and 100)
+	at com.bootcamp.smarthome.device.SmartLight.setBrightness(SmartLight.java:32)
+	at com.bootcamp.smarthome.device.SmartLight.executeCommand(SmartLight.java:43)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:93)
+	at com.bootcamp.smarthome.Main.main(Main.java:44)
+2026-10-21 12:07:23 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_01'
+2026-10-21 12:07:23 WARN  c.b.s.controller.HomeController - Device 'LIGHT_03' is offline — 'TURN_ON' skipped
+2026-10-21 12:07:23 ERROR c.b.s.controller.HomeController - Command 'LIGHT_03 TURN_ON' failed for device 'LIGHT_03'
+com.bootcamp.smarthome.exception.DeviceOfflineException: Device 'LIGHT_03' is offline
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:90)
+	at com.bootcamp.smarthome.Main.main(Main.java:63)
+2026-10-21 12:07:23 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_03'
+2026-10-21 12:07:23 INFO  c.b.smarthome.device.SmartLock - Front Door Lock unlocked successfully.
+2026-10-21 12:07:23 ERROR c.b.smarthome.device.SmartLock - SECURITY ALERT: No pin entered for Back Door Lock.
+2026-10-21 12:07:23 ERROR c.b.s.controller.HomeController - Command 'LOCK_02 UNLOCK' failed for device 'LOCK_02'
+com.bootcamp.smarthome.exception.InvalidCommandException: SECURITY ALERT: No PIN entered for Back Door Lock.
+	at com.bootcamp.smarthome.device.SmartLock.validatePin(SmartLock.java:35)
+	at com.bootcamp.smarthome.device.SmartLock.executeCommand(SmartLock.java:55)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:93)
+	at com.bootcamp.smarthome.Main.main(Main.java:78)
+2026-10-21 12:07:23 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LOCK_02'
+2026-10-21 12:07:23 INFO  c.b.s.controller.HomeController - Command processing ended for device 'SENSOR_99'
+2026-10-21 12:09:43 INFO  c.b.s.controller.HomeController - Command 'TURN_ON' executed successfully on device 'LIGHT_01'
+2026-10-21 12:09:43 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_01'
+2026-10-21 12:09:43 INFO  c.b.s.controller.HomeController - Command 'TURN_ON' executed successfully on device 'LIGHT_02'
+2026-10-21 12:09:43 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_02'
+2026-10-21 12:09:43 INFO  c.b.s.controller.HomeController - Command 'SET_TEMP 22.5' executed successfully on device 'THERMO_01'
+2026-10-21 12:09:43 INFO  c.b.s.controller.HomeController - Command processing ended for device 'THERMO_01'
+2026-10-21 12:09:43 ERROR c.b.s.controller.HomeController - Command 'LIGHT_01 SET_BRIGHTNESS 101' failed for device 'LIGHT_01'
+com.bootcamp.smarthome.exception.InvalidValueException: Invalid value for 'brightness': 101 (constraint: must be between 0 and 100)
+	at com.bootcamp.smarthome.device.SmartLight.setBrightness(SmartLight.java:32)
+	at com.bootcamp.smarthome.device.SmartLight.executeCommand(SmartLight.java:43)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:93)
+	at com.bootcamp.smarthome.Main.main(Main.java:44)
+2026-10-21 12:09:43 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_01'
+2026-10-21 12:09:43 WARN  c.b.s.controller.HomeController - Device 'LIGHT_03' is offline — 'TURN_ON' skipped
+2026-10-21 12:09:43 ERROR c.b.s.controller.HomeController - Command 'LIGHT_03 TURN_ON' failed for device 'LIGHT_03'
+com.bootcamp.smarthome.exception.DeviceOfflineException: Device 'LIGHT_03' is offline
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:90)
+	at com.bootcamp.smarthome.Main.main(Main.java:63)
+2026-10-21 12:09:43 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_03'
+2026-10-21 12:09:43 INFO  c.b.smarthome.device.SmartLock - Front Door Lock unlocked successfully.
+2026-10-21 12:09:43 ERROR c.b.smarthome.device.SmartLock - SECURITY ALERT: No pin entered for Back Door Lock.
+2026-10-21 12:09:43 ERROR c.b.s.controller.HomeController - Command 'LOCK_02 UNLOCK' failed for device 'LOCK_02'
+com.bootcamp.smarthome.exception.InvalidCommandException: SECURITY ALERT: No PIN entered for Back Door Lock.
+	at com.bootcamp.smarthome.device.SmartLock.validatePin(SmartLock.java:35)
+	at com.bootcamp.smarthome.device.SmartLock.executeCommand(SmartLock.java:55)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:93)
+	at com.bootcamp.smarthome.Main.main(Main.java:78)
+2026-10-21 12:09:43 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LOCK_02'
+2026-10-21 12:09:43 ERROR c.b.smarthome.device.SmartLock - SECURITY ALERT: No pin entered for Back Door Lock.
+2026-10-21 12:09:43 ERROR c.b.s.controller.HomeController - Command 'LOCK_02 UNLOCK' failed for device 'LOCK_02'
+com.bootcamp.smarthome.exception.InvalidCommandException: SECURITY ALERT: No PIN entered for Back Door Lock.
+	at com.bootcamp.smarthome.device.SmartLock.validatePin(SmartLock.java:35)
+	at com.bootcamp.smarthome.device.SmartLock.executeCommand(SmartLock.java:55)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:93)
+	at com.bootcamp.smarthome.Main.main(Main.java:84)
+2026-10-21 12:09:43 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LOCK_02'
+2026-10-21 12:10:54 INFO  c.b.s.controller.HomeController - Command 'TURN_ON' executed successfully on device 'LIGHT_01'
+2026-10-21 12:10:54 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_01'
+2026-10-21 12:10:54 INFO  c.b.s.controller.HomeController - Command 'TURN_ON' executed successfully on device 'LIGHT_02'
+2026-10-21 12:10:54 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_02'
+2026-10-21 12:10:54 INFO  c.b.s.controller.HomeController - Command 'SET_TEMP 22.5' executed successfully on device 'THERMO_01'
+2026-10-21 12:10:54 INFO  c.b.s.controller.HomeController - Command processing ended for device 'THERMO_01'
+2026-10-21 12:10:54 ERROR c.b.s.controller.HomeController - Command 'LIGHT_01 SET_BRIGHTNESS 101' failed for device 'LIGHT_01'
+com.bootcamp.smarthome.exception.InvalidValueException: Invalid value for 'brightness': 101 (constraint: must be between 0 and 100)
+	at com.bootcamp.smarthome.device.SmartLight.setBrightness(SmartLight.java:32)
+	at com.bootcamp.smarthome.device.SmartLight.executeCommand(SmartLight.java:43)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:93)
+	at com.bootcamp.smarthome.Main.main(Main.java:44)
+2026-10-21 12:10:54 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_01'
+2026-10-21 12:10:54 WARN  c.b.s.controller.HomeController - Device 'LIGHT_03' is offline — 'TURN_ON' skipped
+2026-10-21 12:10:54 ERROR c.b.s.controller.HomeController - Command 'LIGHT_03 TURN_ON' failed for device 'LIGHT_03'
+com.bootcamp.smarthome.exception.DeviceOfflineException: Device 'LIGHT_03' is offline
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:90)
+	at com.bootcamp.smarthome.Main.main(Main.java:63)
+2026-10-21 12:10:54 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_03'
+2026-10-21 12:10:54 INFO  c.b.smarthome.device.SmartLock - Front Door Lock unlocked successfully.
+2026-10-21 12:10:54 ERROR c.b.smarthome.device.SmartLock - SECURITY ALERT: No pin entered for Back Door Lock.
+2026-10-21 12:10:54 ERROR c.b.s.controller.HomeController - Command 'LOCK_02 UNLOCK' failed for device 'LOCK_02'
+com.bootcamp.smarthome.exception.InvalidCommandException: SECURITY ALERT: No PIN entered for Back Door Lock.
+	at com.bootcamp.smarthome.device.SmartLock.validatePin(SmartLock.java:35)
+	at com.bootcamp.smarthome.device.SmartLock.executeCommand(SmartLock.java:55)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:93)
+	at com.bootcamp.smarthome.Main.main(Main.java:78)
+2026-10-21 12:10:54 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LOCK_02'
+2026-10-21 12:10:54 INFO  c.b.s.controller.HomeController - Command processing ended for device 'SENSOR_99'
+2026-10-21 12:11:39 INFO  c.b.s.controller.HomeController - Command 'TURN_ON' executed successfully on device 'LIGHT_01'
+2026-10-21 12:11:39 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_01'
+2026-10-21 12:11:39 INFO  c.b.s.controller.HomeController - Command 'TURN_ON' executed successfully on device 'LIGHT_02'
+2026-10-21 12:11:39 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_02'
+2026-10-21 12:11:39 INFO  c.b.s.controller.HomeController - Command 'SET_TEMP 22.5' executed successfully on device 'THERMO_01'
+2026-10-21 12:11:39 INFO  c.b.s.controller.HomeController - Command processing ended for device 'THERMO_01'
+2026-10-21 12:11:39 ERROR c.b.s.controller.HomeController - Command 'LIGHT_01 SET_BRIGHTNESS 101' failed for device 'LIGHT_01'
+com.bootcamp.smarthome.exception.InvalidValueException: Invalid value for 'brightness': 101 (constraint: must be between 0 and 100)
+	at com.bootcamp.smarthome.device.SmartLight.setBrightness(SmartLight.java:32)
+	at com.bootcamp.smarthome.device.SmartLight.executeCommand(SmartLight.java:43)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:93)
+	at com.bootcamp.smarthome.Main.main(Main.java:44)
+2026-10-21 12:11:39 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_01'
+2026-10-21 12:11:39 WARN  c.b.s.controller.HomeController - Device 'LIGHT_03' is offline — 'TURN_ON' skipped
+2026-10-21 12:11:39 ERROR c.b.s.controller.HomeController - Command 'LIGHT_03 TURN_ON' failed for device 'LIGHT_03'
+com.bootcamp.smarthome.exception.DeviceOfflineException: Device 'LIGHT_03' is offline
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:90)
+	at com.bootcamp.smarthome.Main.main(Main.java:63)
+2026-10-21 12:11:39 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_03'
+2026-10-21 12:11:39 INFO  c.b.smarthome.device.SmartLock - Front Door Lock unlocked successfully.
+2026-10-21 12:11:39 ERROR c.b.smarthome.device.SmartLock - SECURITY ALERT: No pin entered for Back Door Lock.
+2026-10-21 12:11:39 ERROR c.b.s.controller.HomeController - Command 'LOCK_02 UNLOCK' failed for device 'LOCK_02'
+com.bootcamp.smarthome.exception.InvalidCommandException: SECURITY ALERT: No PIN entered for Back Door Lock.
+	at com.bootcamp.smarthome.device.SmartLock.validatePin(SmartLock.java:35)
+	at com.bootcamp.smarthome.device.SmartLock.executeCommand(SmartLock.java:55)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:93)
+	at com.bootcamp.smarthome.Main.main(Main.java:78)
+2026-10-21 12:11:39 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LOCK_02'
+2026-10-21 12:11:39 INFO  c.b.s.controller.HomeController - Command processing ended for device 'SENSOR_99'
+2026-10-21 12:14:55 INFO  c.b.s.controller.HomeController - Command 'TURN_ON' executed successfully on device 'LIGHT_01'
+2026-10-21 12:14:55 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_01'
+2026-10-21 12:14:55 INFO  c.b.s.controller.HomeController - Command 'TURN_ON' executed successfully on device 'LIGHT_02'
+2026-10-21 12:14:55 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_02'
+2026-10-21 12:14:55 INFO  c.b.s.controller.HomeController - Command 'SET_TEMP 22.5' executed successfully on device 'THERMO_01'
+2026-10-21 12:14:55 INFO  c.b.s.controller.HomeController - Command processing ended for device 'THERMO_01'
+2026-10-21 12:14:55 ERROR c.b.s.controller.HomeController - Command 'LIGHT_01 SET_BRIGHTNESS 101' failed for device 'LIGHT_01'
+com.bootcamp.smarthome.exception.InvalidValueException: Invalid value for 'brightness': 101 (constraint: must be between 0 and 100)
+	at com.bootcamp.smarthome.device.SmartLight.setBrightness(SmartLight.java:32)
+	at com.bootcamp.smarthome.device.SmartLight.executeCommand(SmartLight.java:43)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:93)
+	at com.bootcamp.smarthome.Main.main(Main.java:48)
+2026-10-21 12:14:55 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_01'
+2026-10-21 12:14:55 WARN  c.b.s.controller.HomeController - Device 'LIGHT_03' is offline — 'TURN_ON' skipped
+2026-10-21 12:14:55 ERROR c.b.s.controller.HomeController - Command 'LIGHT_03 TURN_ON' failed for device 'LIGHT_03'
+com.bootcamp.smarthome.exception.DeviceOfflineException: Device 'LIGHT_03' is offline
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:90)
+	at com.bootcamp.smarthome.Main.main(Main.java:67)
+2026-10-21 12:14:55 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_03'
+2026-10-21 12:14:55 INFO  c.b.smarthome.device.SmartLock - Front Door Lock unlocked successfully.
+2026-10-21 12:14:55 ERROR c.b.smarthome.device.SmartLock - SECURITY ALERT: No pin entered for Back Door Lock.
+2026-10-21 12:14:55 ERROR c.b.s.controller.HomeController - Command 'LOCK_02 UNLOCK' failed for device 'LOCK_02'
+com.bootcamp.smarthome.exception.InvalidCommandException: SECURITY ALERT: No PIN entered for Back Door Lock.
+	at com.bootcamp.smarthome.device.SmartLock.validatePin(SmartLock.java:35)
+	at com.bootcamp.smarthome.device.SmartLock.executeCommand(SmartLock.java:55)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:93)
+	at com.bootcamp.smarthome.Main.main(Main.java:82)
+2026-10-21 12:14:55 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LOCK_02'
+2026-10-21 12:14:55 INFO  c.b.s.controller.HomeController - Command processing ended for device 'SENSOR_99'
+2026-10-21 12:14:55 ERROR com.bootcamp.smarthome.Main - Device not found: SENSOR_99
+2026-10-21 12:15:47 INFO  c.b.s.controller.HomeController - Command 'TURN_ON' executed successfully on device 'LIGHT_01'
+2026-10-21 12:15:47 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_01'
+2026-10-21 12:15:47 INFO  c.b.s.controller.HomeController - Command 'TURN_ON' executed successfully on device 'LIGHT_02'
+2026-10-21 12:15:47 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_02'
+2026-10-21 12:15:47 INFO  c.b.s.controller.HomeController - Command 'SET_TEMP 22.5' executed successfully on device 'THERMO_01'
+2026-10-21 12:15:47 INFO  c.b.s.controller.HomeController - Command processing ended for device 'THERMO_01'
+2026-10-21 12:15:47 ERROR c.b.s.controller.HomeController - Command 'LIGHT_01 SET_BRIGHTNESS 101' failed for device 'LIGHT_01'
+com.bootcamp.smarthome.exception.InvalidValueException: Invalid value for 'brightness': 101 (constraint: must be between 0 and 100)
+	at com.bootcamp.smarthome.device.SmartLight.setBrightness(SmartLight.java:32)
+	at com.bootcamp.smarthome.device.SmartLight.executeCommand(SmartLight.java:43)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:93)
+	at com.bootcamp.smarthome.Main.main(Main.java:48)
+2026-10-21 12:15:47 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_01'
+2026-10-21 12:15:47 WARN  c.b.s.controller.HomeController - Device 'LIGHT_03' is offline — 'TURN_ON' skipped
+2026-10-21 12:15:47 ERROR c.b.s.controller.HomeController - Command 'LIGHT_03 TURN_ON' failed for device 'LIGHT_03'
+com.bootcamp.smarthome.exception.DeviceOfflineException: Device 'LIGHT_03' is offline
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:90)
+	at com.bootcamp.smarthome.Main.main(Main.java:67)
+2026-10-21 12:15:47 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_03'
+2026-10-21 12:15:47 INFO  c.b.smarthome.device.SmartLock - Front Door Lock unlocked successfully.
+2026-10-21 12:15:47 ERROR c.b.smarthome.device.SmartLock - SECURITY ALERT: No pin entered for Back Door Lock.
+2026-10-21 12:15:47 ERROR c.b.s.controller.HomeController - Command 'LOCK_02 UNLOCK' failed for device 'LOCK_02'
+com.bootcamp.smarthome.exception.InvalidCommandException: SECURITY ALERT: No PIN entered for Back Door Lock.
+	at com.bootcamp.smarthome.device.SmartLock.validatePin(SmartLock.java:35)
+	at com.bootcamp.smarthome.device.SmartLock.executeCommand(SmartLock.java:55)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:93)
+	at com.bootcamp.smarthome.Main.main(Main.java:82)
+2026-10-21 12:15:47 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LOCK_02'
+2026-10-21 12:15:47 INFO  c.b.s.controller.HomeController - Command processing ended for device 'SENSOR_99'
+2026-10-21 12:15:47 ERROR com.bootcamp.smarthome.Main - Device not found: SENSOR_99
+2026-10-21 12:20:40 INFO  c.b.s.controller.HomeController - Command 'TURN_ON' executed successfully on device 'LIGHT_01'
+2026-10-21 12:20:40 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_01'
+2026-10-21 12:20:40 INFO  c.b.s.controller.HomeController - Command 'TURN_ON' executed successfully on device 'LIGHT_02'
+2026-10-21 12:20:40 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_02'
+2026-10-21 12:20:40 INFO  c.b.s.controller.HomeController - Command 'SET_TEMP 22.5' executed successfully on device 'THERMO_01'
+2026-10-21 12:20:40 INFO  c.b.s.controller.HomeController - Command processing ended for device 'THERMO_01'
+2026-10-21 12:20:40 ERROR c.b.s.controller.HomeController - Command 'LIGHT_01 SET_BRIGHTNESS 101' failed for device 'LIGHT_01'
+com.bootcamp.smarthome.exception.InvalidValueException: Invalid value for 'brightness': 101 (constraint: must be between 0 and 100)
+	at com.bootcamp.smarthome.device.SmartLight.setBrightness(SmartLight.java:32)
+	at com.bootcamp.smarthome.device.SmartLight.executeCommand(SmartLight.java:43)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:93)
+	at com.bootcamp.smarthome.Main.main(Main.java:54)
+2026-10-21 12:20:40 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_01'
+2026-10-21 12:20:40 ERROR com.bootcamp.smarthome.Main - Command 'LIGHT_01 SET_BRIGHTNESS 101' failed for device 'LIGHT_01' - cause: Invalid value for 'brightness': 101 (constraint: must be between 0 and 100)
+2026-10-21 12:20:40 ERROR com.bootcamp.smarthome.Main - Invalid value for 'temperature': 99.0 (constraint: must be between 10.0 and 35.0)
+2026-10-21 12:20:40 WARN  c.b.s.controller.HomeController - Device 'LIGHT_03' is offline — 'TURN_ON' skipped
+2026-10-21 12:20:40 ERROR c.b.s.controller.HomeController - Command 'LIGHT_03 TURN_ON' failed for device 'LIGHT_03'
+com.bootcamp.smarthome.exception.DeviceOfflineException: Device 'LIGHT_03' is offline
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:90)
+	at com.bootcamp.smarthome.Main.main(Main.java:75)
+2026-10-21 12:20:40 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_03'
+2026-10-21 12:20:40 ERROR com.bootcamp.smarthome.Main - Command 'LIGHT_03 TURN_ON' failed for device 'LIGHT_03' - cause: Device 'LIGHT_03' is offline
+2026-10-21 12:20:40 INFO  c.b.smarthome.device.SmartLock - Front Door Lock unlocked successfully.
+2026-10-21 12:20:40 ERROR c.b.smarthome.device.SmartLock - SECURITY ALERT: No pin entered for Back Door Lock.
+2026-10-21 12:20:40 ERROR c.b.s.controller.HomeController - Command 'LOCK_02 UNLOCK' failed for device 'LOCK_02'
+com.bootcamp.smarthome.exception.InvalidCommandException: SECURITY ALERT: No PIN entered for Back Door Lock.
+	at com.bootcamp.smarthome.device.SmartLock.validatePin(SmartLock.java:35)
+	at com.bootcamp.smarthome.device.SmartLock.executeCommand(SmartLock.java:55)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:93)
+	at com.bootcamp.smarthome.Main.main(Main.java:95)
+2026-10-21 12:20:40 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LOCK_02'
+2026-10-21 12:20:40 ERROR com.bootcamp.smarthome.Main - Command 'LOCK_02 UNLOCK' failed for device 'LOCK_02' - cause: SECURITY ALERT: No PIN entered for Back Door Lock.
+2026-10-21 12:20:40 INFO  c.b.s.controller.HomeController - Command processing ended for device 'SENSOR_99'
+2026-10-21 12:20:40 ERROR com.bootcamp.smarthome.Main - Device not found: SENSOR_99
+2026-10-21 12:21:13 INFO  c.b.s.controller.HomeController - Command 'TURN_ON' executed successfully on device 'LIGHT_01'
+2026-10-21 12:21:13 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_01'
+2026-10-21 12:21:13 INFO  c.b.s.controller.HomeController - Command 'TURN_ON' executed successfully on device 'LIGHT_02'
+2026-10-21 12:21:13 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_02'
+2026-10-21 12:21:13 INFO  c.b.s.controller.HomeController - Command processing ended for device 'THERMO_10'
+2026-10-21 12:21:13 ERROR com.bootcamp.smarthome.Main - Device not found: THERMO_10
+2026-10-21 12:21:13 ERROR c.b.s.controller.HomeController - Command 'LIGHT_01 SET_BRIGHTNESS 101' failed for device 'LIGHT_01'
+com.bootcamp.smarthome.exception.InvalidValueException: Invalid value for 'brightness': 101 (constraint: must be between 0 and 100)
+	at com.bootcamp.smarthome.device.SmartLight.setBrightness(SmartLight.java:32)
+	at com.bootcamp.smarthome.device.SmartLight.executeCommand(SmartLight.java:43)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:93)
+	at com.bootcamp.smarthome.Main.main(Main.java:54)
+2026-10-21 12:21:13 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_01'
+2026-10-21 12:21:13 ERROR com.bootcamp.smarthome.Main - Command 'LIGHT_01 SET_BRIGHTNESS 101' failed for device 'LIGHT_01' - cause: Invalid value for 'brightness': 101 (constraint: must be between 0 and 100)
+2026-10-21 12:21:13 ERROR com.bootcamp.smarthome.Main - Invalid value for 'temperature': 99.0 (constraint: must be between 10.0 and 35.0)
+2026-10-21 12:21:13 WARN  c.b.s.controller.HomeController - Device 'LIGHT_03' is offline — 'TURN_ON' skipped
+2026-10-21 12:21:13 ERROR c.b.s.controller.HomeController - Command 'LIGHT_03 TURN_ON' failed for device 'LIGHT_03'
+com.bootcamp.smarthome.exception.DeviceOfflineException: Device 'LIGHT_03' is offline
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:90)
+	at com.bootcamp.smarthome.Main.main(Main.java:75)
+2026-10-21 12:21:13 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_03'
+2026-10-21 12:21:13 ERROR com.bootcamp.smarthome.Main - Command 'LIGHT_03 TURN_ON' failed for device 'LIGHT_03' - cause: Device 'LIGHT_03' is offline
+2026-10-21 12:21:13 INFO  c.b.smarthome.device.SmartLock - Front Door Lock unlocked successfully.
+2026-10-21 12:21:13 ERROR c.b.smarthome.device.SmartLock - SECURITY ALERT: No pin entered for Back Door Lock.
+2026-10-21 12:21:13 ERROR c.b.s.controller.HomeController - Command 'LOCK_02 UNLOCK' failed for device 'LOCK_02'
+com.bootcamp.smarthome.exception.InvalidCommandException: SECURITY ALERT: No PIN entered for Back Door Lock.
+	at com.bootcamp.smarthome.device.SmartLock.validatePin(SmartLock.java:35)
+	at com.bootcamp.smarthome.device.SmartLock.executeCommand(SmartLock.java:55)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:93)
+	at com.bootcamp.smarthome.Main.main(Main.java:95)
+2026-10-21 12:21:13 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LOCK_02'
+2026-10-21 12:21:13 ERROR com.bootcamp.smarthome.Main - Command 'LOCK_02 UNLOCK' failed for device 'LOCK_02' - cause: SECURITY ALERT: No PIN entered for Back Door Lock.
+2026-10-21 12:21:13 INFO  c.b.s.controller.HomeController - Command processing ended for device 'SENSOR_99'
+2026-10-21 12:21:13 ERROR com.bootcamp.smarthome.Main - Device not found: SENSOR_99
+2026-10-21 12:30:35 INFO  c.b.s.controller.HomeController - Command 'TURN_ON' executed successfully on device 'LIGHT_01'
+2026-10-21 12:30:35 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_01'
+2026-10-21 12:30:35 INFO  c.b.s.controller.HomeController - Command 'TURN_ON' executed successfully on device 'LIGHT_02'
+2026-10-21 12:30:35 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_02'
+2026-10-21 12:30:35 INFO  c.b.s.controller.HomeController - Command 'SET_TEMP 22.5' executed successfully on device 'THERMO_01'
+2026-10-21 12:30:35 INFO  c.b.s.controller.HomeController - Command processing ended for device 'THERMO_01'
+2026-10-21 12:30:35 ERROR c.b.s.controller.HomeController - Command 'LIGHT_01 SET_BRIGHTNESS 101' failed for device 'LIGHT_01'
+com.bootcamp.smarthome.exception.InvalidValueException: Invalid value for 'brightness': 101 (constraint: must be between 0 and 100)
+	at com.bootcamp.smarthome.device.SmartLight.setBrightness(SmartLight.java:32)
+	at com.bootcamp.smarthome.device.SmartLight.executeCommand(SmartLight.java:43)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:93)
+	at com.bootcamp.smarthome.Main.main(Main.java:54)
+2026-10-21 12:30:35 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_01'
+2026-10-21 12:30:35 ERROR com.bootcamp.smarthome.Main - Command 'LIGHT_01 SET_BRIGHTNESS 101' failed for device 'LIGHT_01' - cause: Invalid value for 'brightness': 101 (constraint: must be between 0 and 100)
+2026-10-21 12:30:35 ERROR com.bootcamp.smarthome.Main - Invalid value for 'temperature': 99.0 (constraint: must be between 10.0 and 35.0)
+2026-10-21 12:30:35 WARN  c.b.s.controller.HomeController - Device 'LIGHT_03' is offline — 'TURN_ON' skipped
+2026-10-21 12:30:35 ERROR c.b.s.controller.HomeController - Command 'LIGHT_03 TURN_ON' failed for device 'LIGHT_03'
+com.bootcamp.smarthome.exception.DeviceOfflineException: Device 'LIGHT_03' is offline
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:90)
+	at com.bootcamp.smarthome.Main.main(Main.java:75)
+2026-10-21 12:30:35 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_03'
+2026-10-21 12:30:35 ERROR com.bootcamp.smarthome.Main - Command 'LIGHT_03 TURN_ON' failed for device 'LIGHT_03' - cause: Device 'LIGHT_03' is offline
+2026-10-21 12:30:35 INFO  c.b.smarthome.device.SmartLock - Front Door Lock unlocked successfully.
+2026-10-21 12:30:35 ERROR c.b.smarthome.device.SmartLock - SECURITY ALERT: No pin entered for Back Door Lock.
+2026-10-21 12:30:35 ERROR c.b.s.controller.HomeController - Command 'LOCK_02 UNLOCK' failed for device 'LOCK_02'
+com.bootcamp.smarthome.exception.InvalidCommandException: SECURITY ALERT: No PIN entered for Back Door Lock.
+	at com.bootcamp.smarthome.device.SmartLock.validatePin(SmartLock.java:35)
+	at com.bootcamp.smarthome.device.SmartLock.executeCommand(SmartLock.java:55)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:93)
+	at com.bootcamp.smarthome.Main.main(Main.java:95)
+2026-10-21 12:30:35 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LOCK_02'
+2026-10-21 12:30:35 ERROR com.bootcamp.smarthome.Main - Command 'LOCK_02 UNLOCK' failed for device 'LOCK_02' - cause: SECURITY ALERT: No PIN entered for Back Door Lock.
+2026-10-21 12:30:35 INFO  c.b.s.controller.HomeController - Command processing ended for device 'SENSOR_99'
+2026-10-21 12:30:35 ERROR com.bootcamp.smarthome.Main - Device not found: SENSOR_99
+2026-10-21 12:33:40 INFO  c.b.s.controller.HomeController - Command 'TURN_ON' executed successfully on device 'LIGHT_01'
+2026-10-21 12:33:40 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_01'
+2026-10-21 12:33:40 INFO  c.b.s.controller.HomeController - Command 'TURN_ON' executed successfully on device 'LIGHT_02'
+2026-10-21 12:33:40 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_02'
+2026-10-21 12:33:40 INFO  c.b.s.controller.HomeController - Command 'SET_TEMP 22.5' executed successfully on device 'THERMO_01'
+2026-10-21 12:33:40 INFO  c.b.s.controller.HomeController - Command processing ended for device 'THERMO_01'
+2026-10-21 12:33:40 ERROR c.b.s.controller.HomeController - Command 'LIGHT_01 SET_BRIGHTNESS 101' failed for device 'LIGHT_01'
+com.bootcamp.smarthome.exception.InvalidValueException: Invalid value for 'brightness': 101 (constraint: must be between 0 and 100)
+	at com.bootcamp.smarthome.device.SmartLight.setBrightness(SmartLight.java:32)
+	at com.bootcamp.smarthome.device.SmartLight.executeCommand(SmartLight.java:43)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:94)
+	at com.bootcamp.smarthome.Main.main(Main.java:54)
+2026-10-21 12:33:40 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_01'
+2026-10-21 12:33:40 ERROR com.bootcamp.smarthome.Main - Command 'LIGHT_01 SET_BRIGHTNESS 101' failed for device 'LIGHT_01' - cause: Invalid value for 'brightness': 101 (constraint: must be between 0 and 100)
+2026-10-21 12:33:40 ERROR com.bootcamp.smarthome.Main - Invalid value for 'temperature': 99.0 (constraint: must be between 10.0 and 35.0)
+2026-10-21 12:33:40 WARN  c.b.s.controller.HomeController - Device 'LIGHT_03' is offline — 'TURN_ON' skipped
+2026-10-21 12:33:40 ERROR c.b.s.controller.HomeController - Command 'LIGHT_03 TURN_ON' failed for device 'LIGHT_03'
+com.bootcamp.smarthome.exception.DeviceOfflineException: Device 'LIGHT_03' is offline
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:91)
+	at com.bootcamp.smarthome.Main.main(Main.java:75)
+2026-10-21 12:33:40 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LIGHT_03'
+2026-10-21 12:33:40 ERROR com.bootcamp.smarthome.Main - Command 'LIGHT_03 TURN_ON' failed for device 'LIGHT_03' - cause: Device 'LIGHT_03' is offline
+2026-10-21 12:33:40 INFO  c.b.smarthome.device.SmartLock - Front Door Lock unlocked successfully.
+2026-10-21 12:33:40 ERROR c.b.smarthome.device.SmartLock - SECURITY ALERT: No pin entered for Back Door Lock.
+2026-10-21 12:33:40 ERROR c.b.s.controller.HomeController - Command 'LOCK_02 UNLOCK' failed for device 'LOCK_02'
+com.bootcamp.smarthome.exception.InvalidCommandException: SECURITY ALERT: No PIN entered for Back Door Lock.
+	at com.bootcamp.smarthome.device.SmartLock.validatePin(SmartLock.java:35)
+	at com.bootcamp.smarthome.device.SmartLock.executeCommand(SmartLock.java:55)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:94)
+	at com.bootcamp.smarthome.Main.main(Main.java:95)
+2026-10-21 12:33:40 INFO  c.b.s.controller.HomeController - Command processing ended for device 'LOCK_02'
+2026-10-21 12:33:40 ERROR com.bootcamp.smarthome.Main - Command 'LOCK_02 UNLOCK' failed for device 'LOCK_02' - cause: SECURITY ALERT: No PIN entered for Back Door Lock.
+2026-10-21 12:33:40 INFO  c.b.s.controller.HomeController - Command processing ended for device 'SENSOR_99'
+2026-10-21 12:33:40 ERROR com.bootcamp.smarthome.Main - Device not found: SENSOR_99
