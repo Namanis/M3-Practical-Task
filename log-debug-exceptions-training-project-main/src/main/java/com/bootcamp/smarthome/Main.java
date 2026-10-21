@@ -14,14 +14,13 @@ import org.slf4j.LoggerFactory;
 
 /**
  * Entry point for the Smart Home Controller demo.
- *
  * Registers several smart devices, then runs a series of scenarios that
  * exercise normal operation as well as edge cases and error conditions.
  */
 public class Main {
     private static final Logger logger = LoggerFactory.getLogger(Main.class);
 
-    public static void main(String[] args) throws HomeAutomationException {
+    public static void main(String[] args) {
 
         HomeController controller = new HomeController();
 
@@ -41,19 +40,25 @@ public class Main {
         System.out.println("\n=== Scenario 1: Normal device commands ===");
         try {
             controller.sendCommand("LIGHT_01 TURN_ON");
+        } catch (HomeAutomationException | DeviceNotFoundException e) {
+            logger.error("Failed - cause: ", e);
+        }
+        try {
             controller.sendCommand("LIGHT_02 TURN_ON");
+        } catch (HomeAutomationException | DeviceNotFoundException e) {
+            logger.error("Failed - cause: ", e);
+        }
+        try {
             controller.sendCommand("THERMO_01 SET_TEMP 22.5");
-        } catch (HomeAutomationException e) {
-            logger.error("{} - cause: {}", e.getMessage(), e.getCause().getMessage());
-        } catch (DeviceNotFoundException e) {
-            logger.error("{}", e.getMessage());
+        } catch (HomeAutomationException | DeviceNotFoundException e) {
+            logger.error("Failed - cause: ", e);
         }
 
         System.out.println("\n=== Scenario 2: Set brightness ===");
         try {
             controller.sendCommand("LIGHT_01 SET_BRIGHTNESS 101");
         } catch (HomeAutomationException e) {
-            logger.error("{} - cause: {}", e.getMessage(), e.getCause().getMessage());
+            logger.error("Failed - cause: ", e);
         } catch (DeviceNotFoundException e) {
             logger.error("{}", e.getMessage());
         }
@@ -65,16 +70,15 @@ public class Main {
             SmartThermostat mainThermostat = (SmartThermostat) found;
             mainThermostat.setTemperature(99.0);
         } catch (InvalidValueException e) {
-            logger.error("{}", e.getMessage());
+            logger.error("Failed - cause: ", e);
         }
 
         System.out.println("\n=== Scenario 4: Offline device ===");
         // LIGHT_03 is offline — command should be skipped with a warning
-//        controller.sendCommand("LIGHT_03 TURN_ON");
         try {
             controller.sendCommand("LIGHT_03 TURN_ON");
         } catch (HomeAutomationException e) {
-            logger.error("{} - cause: {}", e.getMessage(), e.getCause().getMessage());
+            logger.error("Failed - cause: ", e);
         } catch (DeviceNotFoundException e) {
             logger.error("{}", e.getMessage());
         }
@@ -87,26 +91,22 @@ public class Main {
             SmartLock frontDoor = (SmartLock) foundLock;
             frontDoor.validatePin("4321"); // should print "Front Door Lock unlocked successfully."
         } catch (InvalidCommandException e) {
-            logger.error("{}", e.getMessage());
+            logger.error("Failed - cause: ", e);
         } // should print "Front Door Lock unlocked successfully."
 
         System.out.println("\n=== Scenario 6: Unlock with null PIN ===");
         try {
             controller.sendCommand("LOCK_02 UNLOCK");
-        } catch (HomeAutomationException e) {
-            logger.error("{} - cause: {}", e.getMessage(), e.getCause().getMessage());
-        } catch (DeviceNotFoundException e) {
-            logger.error("{}", e.getMessage());
+        } catch (HomeAutomationException | DeviceNotFoundException e) {
+            logger.error("Failed - cause: ", e);
         }
 
 
         System.out.println("\n=== Scenario 7: Find non-existent device ===");
         try {
             controller.sendCommand("SENSOR_99 TURN_ON");
-        } catch (HomeAutomationException e) {
-            logger.error("{} - cause: {}", e.getMessage(), e.getCause().getMessage());
-        } catch (DeviceNotFoundException e) {
-            logger.error("{}", e.getMessage());
+        } catch (HomeAutomationException | DeviceNotFoundException e) {
+            logger.error("Failed - cause: ", e);
         }
 
 
